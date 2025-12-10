@@ -1,2 +1,2 @@
 # codar
-Aplicação com intuido de ensinar programação
+Aplicação com intuito de ensinar programação
