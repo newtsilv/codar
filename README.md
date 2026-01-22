@@ -1,59 +1,73 @@
-# Codar
+# Codar — Front-end
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.8.
+O **Codar** é uma plataforma criada com o objetivo de ensinar programação para pessoas que estão dando os primeiros passos na área. A ideia é oferecer uma experiência simples, clara e acessível, facilitando o aprendizado de conceitos básicos de desenvolvimento.
 
-## Development server
+Este repositório contém o **front-end da aplicação**, responsável pela interface do usuário e pela comunicação com a API.
 
-To start a local development server, run:
+## Sobre o projeto
 
+O Codar surgiu como um projeto de estudo e prática, com foco em:
+
+- Aprendizado de programação para iniciantes
+- Organização e componentização do front-end
+- Consumo de API
+- Boas práticas de desenvolvimento
+
+## Funcionalidades
+
+- Interface simples e intuitiva
+- Navegação entre conteúdos e aulas
+- Estrutura pensada para quem está começando
+- Layout responsivo
+
+## Tecnologias utilizadas
+
+- HTML
+- Tailwind CSS
+- TypeScript
+- Angular
+- Consumo de API REST
+
+## Pré-requisitos
+
+Para rodar o projeto localmente, é necessário ter instalado:
+
+- Node.js
+- npm ou yarn
+- Angular CLI
+
+## Como executar o projeto
+
+Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/codar-frontend.git
+```
+Acesse a pasta do projeto:
+```bash
+cd codar-frontend
+```
+Instale as dependências:
+```bash
+npm install
+```
+Inicie a aplicação:
 ```bash
 ng serve
 ```
+Acesse no navegador:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+http://localhost:4200
 
-## Code scaffolding
+## Público-alvo
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Pessoas iniciantes em programação
+- Estudantes da área de tecnologia
+- Quem deseja aprender desenvolvimento do zero
 
-```bash
-ng generate component component-name
-```
+## Status do projeto
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Em desenvolvimento.
 
-```bash
-ng generate --help
-```
+## Autor
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvido por **Newthon Araújo**.
