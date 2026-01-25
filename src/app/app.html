@@ -1,7 +1,9 @@
-<main class="h-[100vh] min-h-1vh relative min-h-screen">
-  <app-header/>
-  <app-hero-section/>
-  <div class="relative b-0">
-    <app-footer/>
-  </div>
-</main>
+<div class="min-h-screen flex flex-col bg-[#0b0f14]">
+  <app-header></app-header>
+
+  <main class="flex-1 w-full">
+    <router-outlet></router-outlet>
+  </main>
+
+  <app-footer></app-footer>
+</div>

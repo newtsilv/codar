@@ -5,7 +5,8 @@ import { Footer } from '../../shared/components/footer/footer';
 
 @Component({
   selector: 'app-hero-section',
-  imports: [Header, Footer, Card],
+  imports: [ Card],
+  standalone: true,
   templateUrl: './hero-section.html',
   styleUrl: './hero-section.css',
 })
