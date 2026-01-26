@@ -5,7 +5,18 @@
   --color-white: #FFFFFF;
 }
 
+@layer utilities {
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-white);
+}
+@layer base {
+  body {
+    overflow: hidden;
+  }
 }
